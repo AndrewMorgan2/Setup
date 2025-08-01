@@ -1,0 +1,5 @@
+ctl / -> bring up terminal
+space e -> explorer
+a -> in explorer make new file
+resize with mouse or <C-h/j/k/l>
+
