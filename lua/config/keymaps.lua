@@ -18,6 +18,8 @@ vim.keymap.set("n", "<C-l>", "<Cmd>vertical resize +2<CR>", { desc = "Increase W
 vim.keymap.set("n", "<C-k>", "<Cmd>resize +2<CR>", { desc = "Increase Window Height" })
 vim.keymap.set("n", "<C-j>", "<Cmd>resize -2<CR>", { desc = "Decrease Window Height" })
 
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+
 -- Also set up a delayed override in case LazyVim loads later
 vim.defer_fn(function()
   vim.keymap.set("n", "<C-h>", "<Cmd>vertical resize -2<CR>", { desc = "Decrease Window Width" })
